@@ -1,6 +1,6 @@
 # This is a Hangman Game.
 import random
-import Hangman.hangman_words
+import hangman_words
 
 end_of_game = False
 word_list = ["ardvark", "baboon", "camel"]
