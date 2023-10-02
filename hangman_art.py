@@ -54,3 +54,5 @@ stages = ['''
       |
 =========
 ''']
+
+logo = 'Hangman'
