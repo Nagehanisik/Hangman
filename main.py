@@ -1,6 +1,16 @@
 # This is a Hangman Game.
 import random
 
+stages = [
+
+
+
+
+
+
+
+]
+
 word_list = ["advark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
