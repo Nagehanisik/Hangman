@@ -1,6 +1,7 @@
 # This is a Hangman Game.
 import random
 
+import hangman_words
 
 
 end_of_game = False
