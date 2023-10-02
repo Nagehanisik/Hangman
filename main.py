@@ -12,10 +12,15 @@ for letter in chosen_word:
 print(display)
 
 # Ask the guess
-guess = input("Guess a letter: ").lower()
-for position in range(word_length):
-    letter = chosen_word[position]
-    if letter == guess:
-        display[position] = letter
 
-print(display)
+end_of_game = False
+
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+    # Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
+
+    print(display)
